@@ -16,12 +16,12 @@ form = '''
 </style>
 
 <form>
-<input class="banana" name=family_name></input>
+<input class="myclass" name=family_name></input>
 <input type=submit></input>
 </form>
 
 <p>This is a paragraph</p>
-<p class="banana"> This is the banana paragraph (it has a class called banana)</p>
+<p class="myclass"> This is a paragraph (it has a class called myclass)</p>
 '''
 
 @myapp.route("/")
