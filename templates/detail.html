@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<font color="blue"><h3>詳細</h3></font>
+
+<h2>{{ post.title }}</h2>
+<p>{{ post.detail }}</p>
+<p>{{ post.due.date() }}</p>
+
+{% endblock %}
